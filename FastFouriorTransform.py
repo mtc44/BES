@@ -156,6 +156,8 @@ for adj_a, adj_b in zip(adj3_1, adj3_2):
     else:
         unwrap3.append(adj_a-adj_b)
         
+unwrap3.pop()
+        
 stacked_phase3_pre = [0] + unwrap3
 
 #cumulative summation for staced_phase
