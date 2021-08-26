@@ -5,7 +5,6 @@ Created on Wed Aug  4 18:06:21 2021
 @author: chanchanchan
 """
 
-import yfinance as yf
 import streamlit as st
 import pandas as pd
 from matplotlib import pyplot as plt
