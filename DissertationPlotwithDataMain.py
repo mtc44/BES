@@ -34,11 +34,11 @@ import pandas as pd
 
 #Import Experimental Data From csv Files:
 
-data3 = pd.read_csv('https://github.com/mtc44/BES/blob/main/3-khz.csv', delimiter = ',', index_col='Time in s')
-data4 = pd.read_csv('https://github.com/mtc44/BES/blob/main/4-khz.csv', delimiter = ',', index_col='Time in s')
-data5 = pd.read_csv('https://github.com/mtc44/BES/blob/main/5-khz.csv', delimiter = ',', index_col='Time in s')
-data6 = pd.read_csv('https://github.com/mtc44/BES/blob/main/6-khz.csv', delimiter = ',', index_col='Time in s')
-data7 = pd.read_csv('https://github.com/mtc44/BES/blob/main/7-khz.csv', delimiter = ',', index_col='Time in s')
+data3 = pd.read_csv('https://raw.githubusercontent.com/mtc44/BES/main/3-khz.csv', delimiter = ',', index_col='Time in s')
+data4 = pd.read_csv('https://raw.githubusercontent.com/mtc44/BES/main/4-khz.csv', delimiter = ',', index_col='Time in s')
+data5 = pd.read_csv('https://raw.githubusercontent.com/mtc44/BES/main/5-khz.csv', delimiter = ',', index_col='Time in s')
+data6 = pd.read_csv('https://raw.githubusercontent.com/mtc44/BES/main/6-khz.csv', delimiter = ',', index_col='Time in s')
+data7 = pd.read_csv('https://raw.githubusercontent.com/mtc44/BES/main/7-khz.csv', delimiter = ',', index_col='Time in s')
 
 
 
