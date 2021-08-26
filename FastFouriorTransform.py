@@ -309,6 +309,8 @@ for adj_a, adj_b in zip(adj4_1, adj4_2):
     else:
         unwrap4.append(adj_a-adj_b)
         
+unwrap4.pop()
+        
 stacked_phase4_pre = [0] + unwrap4
 
 #cumulative summation for staced_phase
@@ -458,7 +460,7 @@ for adj_a, adj_b in zip(adj5_1, adj5_2):
         unwrap5.append(adj_a+(360-adj_b))
     else:
         unwrap5.append(adj_a-adj_b)
-        
+unwrap5.pop()        
 stacked_phase5_pre = [0] + unwrap5
 
 #cumulative summation for staced_phase
@@ -606,7 +608,7 @@ for adj_a, adj_b in zip(adj6_1, adj6_2):
         unwrap6.append(adj_a+(360-adj_b))
     else:
         unwrap6.append(adj_a-adj_b)
-        
+unwrap6.pop()        
 stacked_phase6_pre = [0] + unwrap6
 
 #cumulative summation for staced_phase
@@ -754,7 +756,7 @@ for adj_a, adj_b in zip(adj7_1, adj7_2):
         unwrap7.append(adj_a+(360-adj_b))
     else:
         unwrap7.append(adj_a-adj_b)
-        
+unwrap7.pop()        
 stacked_phase7_pre = [0] + unwrap7
 
 #cumulative summation for staced_phase
